@@ -5,5 +5,7 @@
 		puts "Fizz";
 	elsif i % 5 == 0 then
 		puts "Buzz";
+	else
+		puts i;
 	end
 }
