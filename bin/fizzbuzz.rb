@@ -1,5 +1,7 @@
 100.times{|i|
-	if i % 3 == 0&&i % 5 == 0 then
+	if i % 7 == 0 then
+		puts "git";
+	elsif i % 3 == 0&&i % 5 == 0 then
 		puts "FizzBuzz";
 	elsif i % 3 == 0 then
 		puts "Fizz";
